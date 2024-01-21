@@ -15,7 +15,7 @@ const config = createConfig(
 
     // Optional
     appDescription: "Your App Description",
-    appUrl: "https://family.co", // your app's url
+    appUrl: "https://family.co", // your app's URL
     appIcon: "https://family.co/logo.png", // your app's icon, no bigger than 1024x1024px (max. 1MB)
   }),
 );
@@ -123,6 +123,22 @@ const Home = () => {
               </p>
             </div>
           </section>
+{/* Buttons Section */}
+<section className="flex justify-between mt-8">
+  {/* Button 1 */}
+  <button className="py-2 px-6 rounded-full text-black bg-yellow-500 border border-blue-500 font-bold">
+    Embark on a TapQuest Adventure
+  </button>
+
+  {/* Button 2 */}
+  <button className="py-2 px-6 rounded-full text-black bg-yellow-500 border border-green-500 font-bold">
+    Explore Your TapQuest Earnings
+  </button>
+</section>
+
+
+
+
         </main>
       </ConnectKitProvider>
     </WagmiConfig>
