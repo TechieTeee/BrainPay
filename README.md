@@ -1,5 +1,3 @@
-![TapQuest Logo](https://github.com/TechieTeee/TapQuest/assets/100870737/04e08f4d-729c-46e3-987c-ea6d9cb38e7b)
-
 # TapQuest
 
 ## Introduction
@@ -37,3 +35,4 @@ TapQuest aims to revolutionize the way users engage with payments and marketing.
 3. **Community:** Join our community discussions for updates and collaboration.
 
 Thank you for being part of the TapQuest journey!
+
