@@ -1,4 +1,5 @@
-# TapQuest: Redefining Digital Engagement and Transactions with AR and Blockchain
+# TapQuest
+Redefining Digital Engagement and Transactions with AR and Blockchain
 
 ## Introduction
 TapQuest is an innovative platform at the intersection of blockchain, augmented reality (AR), and NFC wearables. Transforming digital payments and marketing, TapQuest offers a seamless and engaging experience for users and businesses alike.
