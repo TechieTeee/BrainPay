@@ -15,6 +15,8 @@ The bidding war in the digital advertising space has escalated costs, hindering 
 ## The Solution
 TapQuest responds to these challenges with a transformative approach. By integrating blockchain, AR, NFC wearables, and AR.js, TapQuest pioneers a new era of digital engagement and transactions.
 
+Presentation and Demo[https://www.canva.com/design/DAF6iFxpyko/2yvJ2ag0SOhJf_v-edNVEQ/view?utm_content=DAF6iFxpyko&utm_campaign=designshare&utm_medium=link&utm_source=editor]
+
 ## Market Trends
 The AR market is set to reach $110.1 billion by 2024 (Statista, 2023), indicating a growing interest in AR technology. 86% of marketers anticipate a significant impact of AR on their future strategies (eMarketer, 2023), aligning with the demand for interactive and immersive experiences.
 
