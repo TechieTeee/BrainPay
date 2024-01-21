@@ -135,13 +135,14 @@ const Home = () => {
 </a>
 
 
-  {/* Button 2 */}
-  <button className="py-2 px-6 rounded-full text-black bg-yellow-500 border border-green-500 font-bold">
-    Explore Your TapQuest Earnings
-  </button>
+  {/* Button 2 - Explore Your TapQuest Earnings */}
+  <Link href="/EarningsPage">
+    <button className="py-2 px-6 rounded-full text-black bg-yellow-500 border border-green-500 font-bold">
+      Explore Your TapQuest Earnings
+    </button>
+  </Link>
+
 </section>
-
-
 
 
         </main>
