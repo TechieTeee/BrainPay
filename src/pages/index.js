@@ -2,7 +2,9 @@ import { WagmiConfig, createConfig } from "wagmi";
 import { ConnectKitProvider, ConnectKitButton, getDefaultConfig } from "connectkit";
 import { useEffect } from "react";
 import Image from "next/image";
-import ARComponent from "../components/ARComponent";
+import ARComponent from "../components/ARComponentContent";
+import Link from 'next/link';
+
 
 const config = createConfig(
   getDefaultConfig({
@@ -11,10 +13,10 @@ const config = createConfig(
     walletConnectProjectId: process.env.WALLETCONNECT_PROJECT_ID,
 
     // Required
-    appName: "Your App Name",
+    appName: "TapQuest",
 
     // Optional
-    appDescription: "Your App Description",
+    appDescription: "Reimagining Marketing and Micropaymments with Blockchain and AR",
     appUrl: "https://family.co", // your app's URL
     appIcon: "https://family.co/logo.png", // your app's icon, no bigger than 1024x1024px (max. 1MB)
   }),
@@ -125,10 +127,12 @@ const Home = () => {
           </section>
 {/* Buttons Section */}
 <section className="flex justify-between mt-8">
-  {/* Button 1 */}
-  <button className="py-2 px-6 rounded-full text-black bg-yellow-500 border border-blue-500 font-bold">
-    Embark on a TapQuest Adventure
-  </button>
+{/* Button 1 */}
+<Link href="/ARComponent">
+    <button className="py-2 px-6 rounded-full text-black bg-yellow-500 border border-blue-500 font-bold">
+      Embark on a TapQuest Adventure
+    </button>
+  </Link>
 
   {/* Button 2 */}
   <button className="py-2 px-6 rounded-full text-black bg-yellow-500 border border-green-500 font-bold">
