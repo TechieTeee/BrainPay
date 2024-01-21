@@ -16,6 +16,24 @@ export default function Home() {
           Earn rewards and unlock exclusive content as you immerse yourself in
           the AR environment powered by TapQuest.
         </p>
+
+
+{/* Centered GIF */}
+<div className="mt-8 flex justify-center items-center">
+          <iframe
+            src="https://giphy.com/embed/rCmC12OWz9kTS"
+            width="480"
+            height="271"
+            frameBorder="0"
+            class="giphy-embed"
+            allowFullScreen
+          ></iframe>
+          <p>
+            <a href="https://giphy.com/gifs/disneypixar-disney-pixar-rCmC12OWz9kTS">
+            </a>
+          </p>
+        </div>
+
       </section>
 
       {/* AR Component Section */}
@@ -24,51 +42,52 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="grid text-center lg:max-w-5xl lg:w-full lg:grid-cols-4">
-        {/* Feature 1 */}
-        <div className="group rounded-lg border border-transparent px-5 py-4">
-          <h2 className="mb-3 text-2xl font-semibold text-accent">
-            Interactive AR Challenges
-          </h2>
-          <p className="m-0 text-sm opacity-80">
-            Engage with immersive augmented reality challenges and earn exciting
-            rewards.
-          </p>
-        </div>
+<section className="grid text-center lg:max-w-5xl lg:w-full lg:grid-cols-4">
+  {/* Feature 1 */}
+  <div className="group rounded-lg border border-transparent px-5 py-4">
+    <h2 className="mb-3 text-2xl font-bold text-accent text-nabla">
+      Interactive AR Challenges
+    </h2>
+    <p className="m-0 text-sm opacity-80">
+      Engage with immersive augmented reality challenges and earn exciting
+      rewards.
+    </p>
+  </div>
 
-        {/* Feature 2 */}
-        <div className="group rounded-lg border border-transparent px-5 py-4">
-          <h2 className="mb-3 text-2xl font-semibold text-accent">
-            Sponsored by Leading Companies
-          </h2>
-          <p className="m-0 text-sm opacity-80">
-            Our challenges are sponsored by top companies, offering you exclusive
-            prizes.
-          </p>
-        </div>
+  {/* Feature 2 */}
+  <div className="group rounded-lg border border-transparent px-5 py-4">
+    <h2 className="mb-3 text-2xl font-bold text-accent text-nabla">
+      Sponsored by Leading Companies
+    </h2>
+    <p className="m-0 text-sm opacity-80">
+      Our challenges are sponsored by top companies, offering you exclusive
+      prizes.
+    </p>
+  </div>
 
-        {/* Feature 3 */}
-        <div className="group rounded-lg border border-transparent px-5 py-4">
-          <h2 className="mb-3 text-2xl font-semibold text-accent">
-            Seamless AR Experience
-          </h2>
-          <p className="m-0 text-sm opacity-80">
-            Enjoy a seamless augmented reality experience powered by TapQuest's
-            cutting-edge technology.
-          </p>
-        </div>
+  {/* Feature 3 */}
+  <div className="group rounded-lg border border-transparent px-5 py-4">
+    <h2 className="mb-3 text-2xl font-bold text-accent text-nabla">
+      Seamless AR Experience
+    </h2>
+    <p className="m-0 text-sm opacity-80">
+      Enjoy a seamless augmented reality experience powered by TapQuest's
+      cutting-edge technology.
+    </p>
+  </div>
 
-        {/* Feature 4 */}
-        <div className="group rounded-lg border border-transparent px-5 py-4">
-          <h2 className="mb-3 text-2xl font-semibold text-accent">
-            Unlock Exclusive Content
-          </h2>
-          <p className="m-0 text-sm opacity-80">
-            Earn rewards and unlock exclusive content as you progress in your
-            TapQuest journey.
-          </p>
-        </div>
-      </section>
+  {/* Feature 4 */}
+  <div className="group rounded-lg border border-transparent px-5 py-4">
+    <h2 className="mb-3 text-2xl font-bold text-accent text-nabla">
+      Unlock Exclusive Content
+    </h2>
+    <p className="m-0 text-sm opacity-80">
+      Earn rewards and unlock exclusive content as you progress in your
+      TapQuest journey.
+    </p>
+  </div>
+</section>
+
     </main>
   );
 }

@@ -6,26 +6,19 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-color: #0099ff; /* blue background */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-color: #002b36; /* Dark background color for dark mode */
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--background-color);
 }
 
 @layer utilities {
@@ -36,5 +29,9 @@ body {
   .font-nabla {
     font-family: 'Nabla', sans-serif;
     font-weight: 300;
+  }
+
+  .text-nabla {
+    color: #ffcc00; /* Replace with your desired burnt orange color */
   }
 }
