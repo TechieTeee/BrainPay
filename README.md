@@ -1,3 +1,5 @@
+![TapQuest Logo](https://github.com/TechieTeee/TapQuest/assets/100870737/04e08f4d-729c-46e3-987c-ea6d9cb38e7b)
+
 # TapQuest
 
 ## Introduction
