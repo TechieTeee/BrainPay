@@ -128,11 +128,12 @@ const Home = () => {
 {/* Buttons Section */}
 <section className="flex justify-between mt-8">
 {/* Button 1 */}
-<Link href="/ARComponent">
-    <button className="py-2 px-6 rounded-full text-black bg-yellow-500 border border-blue-500 font-bold">
-      Embark on a TapQuest Adventure
-    </button>
-  </Link>
+<a href="https://modelviewer.dev/editor/view/?id=76081505895417180000" target="_blank" rel="noopener noreferrer">
+  <button className="py-2 px-6 rounded-full text-black bg-yellow-500 border border-blue-500 font-bold">
+    Embark on a TapQuest Adventure
+  </button>
+</a>
+
 
   {/* Button 2 */}
   <button className="py-2 px-6 rounded-full text-black bg-yellow-500 border border-green-500 font-bold">
