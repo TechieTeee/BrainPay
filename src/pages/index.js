@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex flex-col items-center justify-between p-24 min-h-screen">
       {/* Background Info Section */}
       <section className="mb-16 text-center">
-        <h1 className="text-4xl font-bold mb-4 text-accent">
+        <h1 className="text-9xl font-bold mb-4 text-accent font-nabla">
           Welcome to TapQuest!
         </h1>
         <p className="text-lg opacity-80 max-w-2xl mx-auto">

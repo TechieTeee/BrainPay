@@ -1,8 +1,8 @@
+/* styles/globals.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Nabla:wght@300&display=swap');
-
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -31,5 +31,10 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .font-nabla {
+    font-family: 'Nabla', sans-serif;
+    font-weight: 300;
   }
 }
