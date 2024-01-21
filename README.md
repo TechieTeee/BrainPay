@@ -34,6 +34,8 @@ TapQuest leverages geofencing technology for location-based marketing and discov
 - **Aave:** Facilitating micropayments on-chain.
 - **Chainlink Oracles:** Providing decentralized and accurate real-world data.
 - **NextJS:** Enabling a fast, scalable, and SEO-friendly frontend.
+- **Solidity + Hardhart:** Building smart TapQuest primary smart contract
+- **JS:** Primary language used for frontend development
 
 ## TapQuest's Impact
 In summary, TapQuest isn't just a solution; it's a strategic response to the evolving digital landscape. By incorporating blockchain, AR, NFC wearables, and AR.js, TapQuest pioneers a new era where engagement, personalization, and seamless transactions converge to create unparalleled value for users and businesses alike.
