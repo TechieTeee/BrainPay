@@ -1,3 +1,5 @@
+![TapQuest_Logo](https://github.com/TechieTeee/tapquest/assets/100870737/283fc5a5-0cce-4bfc-8654-2c6057fc7846)
+
 # TapQuest
 Redefining Digital Engagement and Transactions with AR and Blockchain
 
